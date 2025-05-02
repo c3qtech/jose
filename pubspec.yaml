@@ -10,7 +10,10 @@ environment:
   sdk: ^3.0.0
 
 dependencies:
-  crypto_keys: ^0.3.0+1
+  crypto_keys:
+    git:
+      url: https://github.com/c3qtech/crypto_keys.git
+      ref: master
   meta: ^1.1.6
   typed_data: ^1.0.0
   x509: ^0.2.1
